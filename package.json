@@ -1,0 +1,39 @@
+{
+  "name": "@poool/subscribe-sdk",
+  "version": "1.0.0",
+  "description": "Poool Subscribe SDK for Node",
+  "main": "dist/subscribe.cjs.js",
+  "jsnext:main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "esnext": "src/index.js",
+  "repository": "https://github.com/p3ol/subscribe-node-sdk.git",
+  "author": "dackmin <ugo@poool.fr>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "js-cookie": "3.0.1",
+    "node-fetch": "3.2.3",
+    "query-string": "7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.9",
+    "@babel/eslint-parser": "7.17.0",
+    "@babel/eslint-plugin": "7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@poool/eslint-config": "1.5.0",
+    "@poool/eslint-config-node": "1.5.0",
+    "@poool/eslint-plugin": "1.5.0",
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-babel": "5.3.1",
+    "@rollup/plugin-commonjs": "21.0.3",
+    "@rollup/plugin-node-resolve": "13.1.3",
+    "eslint": "8.13.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "6.0.0",
+    "rollup": "2.70.1"
+  }
+}

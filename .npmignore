@@ -1,0 +1,5 @@
+.npmrc
+coverage
+examples
+tests
+.editorconfig
