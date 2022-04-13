@@ -5,7 +5,7 @@ module.exports = {
     fetch: false,
   },
   overrides: [{
-    files: ['tests/**/*.js'],
+    files: ['**/*.test.js', 'tests/**/*.js'],
     env: {
       jest: true,
     },

@@ -7,5 +7,15 @@ module.exports = {
       },
     }],
   ],
-  plugins: [],
+  env: {
+    test: {
+      presets: [
+        ['@babel/preset-env', {
+          targets: {
+            node: 16,
+          },
+        }],
+      ],
+    },
+  },
 };
