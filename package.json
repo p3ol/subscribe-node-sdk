@@ -1,5 +1,5 @@
 {
-  "name": "@poool/subscribe-sdk",
+  "name": "@poool/subscribe-node-sdk",
   "version": "1.0.0",
   "description": "Poool Subscribe SDK for Node",
   "main": "dist/subscribe.cjs.js",
@@ -10,7 +10,8 @@
   "author": "dackmin <ugo@poool.fr>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js",
+    "serve": "NODE_ENV=development node scripts/serve.js"
   },
   "dependencies": {
     "js-cookie": "3.0.1",
@@ -21,7 +22,7 @@
     "@babel/core": "7.17.9",
     "@babel/eslint-parser": "7.17.0",
     "@babel/eslint-plugin": "7.17.7",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-env": "7.16.11",
     "@poool/eslint-config": "1.5.0",
     "@poool/eslint-config-node": "1.5.0",
     "@poool/eslint-plugin": "1.5.0",
@@ -34,6 +35,7 @@
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.0.0",
+    "nodemon": "2.0.15",
     "rollup": "2.70.1"
   }
 }
