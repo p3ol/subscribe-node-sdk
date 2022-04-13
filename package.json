@@ -13,9 +13,9 @@
     "build": "rollup -c rollup.config.js",
     "serve": "NODE_ENV=development node scripts/serve.js"
   },
-  "dependencies": {
-    "node-fetch": "3.2.3",
-    "query-string": "7.1.1"
+  "peerDependencies": {
+    "node-fetch": "^2.6.0 || ^3.2.0",
+    "query-string": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "7.17.9",

@@ -1,4 +1,3 @@
-import alias from '@rollup/plugin-alias';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 
@@ -6,14 +5,11 @@ const input = './lib/index.js';
 const output = './dist';
 
 const defaultPlugins = [
-  alias({
-    entries: [
-      { find: /^node:(.+)$/, replacement: '$1' },
-    ],
-  }),
   resolve({ preferBuiltins: true }),
   commonjs(),
 ];
+
+const defaultExternals = ['node-fetch', 'query-string'];
 
 export default [
   // cjs
@@ -21,6 +17,7 @@ export default [
     input,
     plugins: defaultPlugins,
     context: 'this',
+    external: defaultExternals,
     output: {
       file: `${output}/index.cjs.js`,
       format: 'cjs',
@@ -32,6 +29,7 @@ export default [
     input,
     plugins: defaultPlugins,
     context: 'this',
+    external: defaultExternals,
     output: {
       dir: `${output}/esm`,
       chunkFileNames: '[name].js',
