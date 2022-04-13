@@ -18,7 +18,7 @@ const loadConfigFile = require('rollup/dist/loadConfigFile.js');
 
   let child;
 
-  watcher.on('event', ({ code, result }) => {
+  watcher.on('event', ({ code, result, error }) => {
     if (code === 'BUNDLE_START') {
       // eslint-disable-next-line no-console
       console.log('[rollup] Detected changes, rebuilding');
@@ -30,6 +30,10 @@ const loadConfigFile = require('rollup/dist/loadConfigFile.js');
         '--watch', './dist',
         '--exec', 'node', './examples/index.js',
       ], { stdio: [0, 1, 2] });
+    }
+
+    if (code === 'ERROR') {
+      console.error(error);
     }
 
     if (result) {
