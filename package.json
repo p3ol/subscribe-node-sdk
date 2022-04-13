@@ -12,7 +12,8 @@
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "serve": "NODE_ENV=development node scripts/serve.js",
-    "test": "BABEL_ENV=test jest"
+    "test": "BABEL_ENV=test jest",
+    "lint": "eslint"
   },
   "peerDependencies": {
     "node-fetch": "^2.6.0 || ^3.2.0",
