@@ -2,7 +2,7 @@
   "name": "@poool/subscribe-node-sdk",
   "version": "1.0.0",
   "description": "Poool Subscribe SDK for Node",
-  "main": "dist/subscribe.cjs.js",
+  "main": "dist/index.cjs.js",
   "jsnext:main": "dist/esm/index.js",
   "module": "dist/esm/index.js",
   "esnext": "src/index.js",
@@ -14,7 +14,6 @@
     "serve": "NODE_ENV=development node scripts/serve.js"
   },
   "dependencies": {
-    "js-cookie": "3.0.1",
     "node-fetch": "3.2.3",
     "query-string": "7.1.1"
   },
