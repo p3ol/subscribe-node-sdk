@@ -15,8 +15,8 @@ const subs = Subscribe({
 
     // Auth
     const tokens = await subs.auth.signin({
-      username: 'ugo+test1@poool.fr',
-      password: 'lol',
+      username: 'test@test.com',
+      password: 'test',
     });
     console.log('auth.signin', tokens);
 
