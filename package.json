@@ -14,7 +14,9 @@
     "serve": "NODE_ENV=development node scripts/serve.js",
     "test": "BABEL_ENV=test jest",
     "lint": "eslint",
-    "prepublish": "yarn lint && yarn test && yarn build"
+    "prepublish": "yarn lint && yarn test && yarn build",
+    "release": "standard-version",
+    "postrelease": "git push --follow-tags"
   },
   "peerDependencies": {
     "node-fetch": "^2.6.0 || ^3.2.0",
@@ -42,6 +44,7 @@
     "node-fetch": "2.6.7",
     "nodemon": "2.0.15",
     "query-string": "7.1.1",
-    "rollup": "2.70.2"
+    "rollup": "2.70.2",
+    "standard-version": "9.3.2"
   }
 }
