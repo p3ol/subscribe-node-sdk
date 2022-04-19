@@ -23,9 +23,9 @@ subs.offers.list().then(({ offers, total }) => console.log(offers, total));
 ```
 
 
-## [Documentation](https://poool.dev/docs/subscribe/server/node)
+## [Documentation](https://poool.dev/docs/subscribe/server)
 
-https://poool.dev/docs/subscribe/server/node
+https://poool.dev/docs/subscribe/server
 
 
 ## Contributing
