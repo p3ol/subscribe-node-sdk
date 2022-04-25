@@ -1,6 +1,6 @@
 {
   "name": "@poool/subscribe-node-sdk",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Poool Subscribe SDK for Node",
   "main": "dist/index.cjs.js",
   "jsnext:main": "dist/esm/index.js",

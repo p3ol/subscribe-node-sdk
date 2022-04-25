@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0-alpha.1](https://github.com/p3ol/subscribe-node-sdk/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-04-25)
+
+
+### Features
+
+* add customer & subscription update ([42f0047](https://github.com/p3ol/subscribe-node-sdk/commit/42f00477bf7ffe68da2ead7e5be0bfe6b15d704e))
+* add customers switchOffer method ([a8f870d](https://github.com/p3ol/subscribe-node-sdk/commit/a8f870d2b42c4292198a155682060d6333ae22b7))
+
 ## 1.0.0-alpha.0 (2022-04-19)
 
 
