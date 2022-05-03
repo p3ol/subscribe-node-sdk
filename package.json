@@ -44,7 +44,7 @@
     "node-fetch": "2.6.7",
     "nodemon": "2.0.16",
     "query-string": "7.1.1",
-    "rollup": "2.70.2",
+    "rollup": "2.71.1",
     "standard-version": "9.3.2"
   }
 }
