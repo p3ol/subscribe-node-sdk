@@ -27,7 +27,7 @@
     "@babel/eslint-parser": "7.18.2",
     "@babel/eslint-plugin": "7.17.7",
     "@babel/preset-env": "7.18.2",
-    "@poool/eslint-config": "1.5.2",
+    "@poool/eslint-config": "2.0.0",
     "@poool/eslint-config-node": "1.5.2",
     "@poool/eslint-plugin": "1.5.2",
     "@rollup/plugin-babel": "5.3.1",
