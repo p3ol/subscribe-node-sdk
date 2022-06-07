@@ -1369,10 +1369,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@poool/eslint-config-node@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@poool/eslint-config-node/-/eslint-config-node-1.5.2.tgz#0641ed772098915b3ffda5cecfd71d9fe16b7276"
-  integrity sha512-H1uCfEv+mDjjmZ+D+N4fmD7bftApDrObkaLM4GDmwQjzg786ohorF9jpSBbVgqbVDrrwELl1dIPLf0bSoywN2A==
+"@poool/eslint-config-node@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@poool/eslint-config-node/-/eslint-config-node-2.0.0.tgz#dfbe6cb000fb9e76b4036b234b4538ae3e2a7db7"
+  integrity sha512-kj3xMikC35O0kinAc/bBOzglYBMCXAYz5bdQdDOc6zjiH7LNj14vNboGyPPA+q6N+tcKU7Euga5SqFoFrC/4AA==
 
 "@poool/eslint-config@2.0.0":
   version "2.0.0"
