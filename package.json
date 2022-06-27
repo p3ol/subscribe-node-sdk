@@ -42,7 +42,7 @@
     "jest": "28.1.1",
     "nock": "13.2.7",
     "node-fetch": "2.6.7",
-    "nodemon": "2.0.16",
+    "nodemon": "2.0.18",
     "query-string": "7.1.1",
     "rollup": "2.75.7",
     "standard-version": "9.5.0"
