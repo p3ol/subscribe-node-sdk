@@ -40,7 +40,7 @@
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-promise": "6.0.0",
     "jest": "28.1.2",
-    "nock": "13.2.7",
+    "nock": "13.2.8",
     "node-fetch": "2.6.7",
     "nodemon": "2.0.18",
     "query-string": "7.1.1",
