@@ -2,32 +2,32 @@
 const Subscribe = require('../dist/index.cjs.js');
 
 const subs = Subscribe({
-  clientId: '0893042862168465',
-  clientSecret: '23WfqB4TbdKm1TnkQ0QrAIv4nZuQcHQ9',
+  clientId: '8229685410804140',
+  clientSecret: 'Cxs1fey6CBGg8ghErxba200u0ZgAdbeJ',
   debug: false,
 });
 
 (async () => {
   try {
     // Offers
-    const offers = await subs.offers.list({ exclude: ['premium'] });
-    console.log('offers.list', offers);
+    try{
 
-    // Auth
-    const tokens = await subs.auth.signin({
-      username: 'test@test.com',
-      password: 'test',
-    });
-    console.log('auth.signin', tokens);
+      const offers = await subs.offers.list({ exclude: ['premium'] });
+      console.log('offers.list', offers);
+    } catch (e) {
+      console.error(e)
+    }
 
-    const callback = await subs.auth.createCallback({
-      grantType: 'bearer',
-      redirectUri: 'http://localhost',
-    }, { auth: tokens });
-    console.log('auth.createCallback', callback);
+      const callback = await subs.auth.createCallback(
+        'password',
+        'http://localhost',
+        'john@doe.fr',
+        'aaa'
+      );
+      console.log('auth.createCallback', callback);
 
     const verify = await subs.auth
-      .verifyCallback(callback.callbackId, { auth: tokens });
+      .verifyCallback(callback.callbackId);
     console.log('auth.verifyCallback', verify);
   } catch (e) {
     console.error(e);
