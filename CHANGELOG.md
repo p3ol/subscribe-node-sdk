@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/p3ol/subscribe-node-sdk/compare/v1.0.0-alpha.1...v1.0.0) (2022-08-04)
+
+
+### Features
+
+* remove console.log ([f878db4](https://github.com/p3ol/subscribe-node-sdk/commit/f878db4050f6956f8cd9c8dd4fd530c0c668411d))
+* **subscribe:** delete access and refresh tokens and all api calls where it's needed ([004b8e1](https://github.com/p3ol/subscribe-node-sdk/commit/004b8e13adfcf48645b71bc060a1b2da617ee58a))
+* **subscribe:** remove requestWithRetry and update example ([9034b7c](https://github.com/p3ol/subscribe-node-sdk/commit/9034b7ce2d7e9a0f0ba8f68e1de900a8376cb0ac))
+
 ## [1.0.0-alpha.1](https://github.com/p3ol/subscribe-node-sdk/compare/v1.0.0-alpha.0...v1.0.0-alpha.1) (2022-04-25)
 
 
