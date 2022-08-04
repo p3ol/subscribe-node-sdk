@@ -7,7 +7,9 @@ module.exports = {
     '/node_modules/',
     '/tests/',
   ],
-  timers: 'real',
+  fakeTimers: {
+    enableGlobally: false,
+  },
   transform: {
     '^.+\\.js$': 'babel-jest',
   },
