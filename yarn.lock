@@ -1733,10 +1733,10 @@
   resolved "https://registry.yarnpkg.com/@poool/eslint-config-node/-/eslint-config-node-2.0.0.tgz#dfbe6cb000fb9e76b4036b234b4538ae3e2a7db7"
   integrity sha512-kj3xMikC35O0kinAc/bBOzglYBMCXAYz5bdQdDOc6zjiH7LNj14vNboGyPPA+q6N+tcKU7Euga5SqFoFrC/4AA==
 
-"@poool/eslint-config@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@poool/eslint-config/-/eslint-config-2.0.0.tgz#eafe61dd86c2d11010066b35167d66b1c83e4b6b"
-  integrity sha512-DY7gyCXQhVI7D1KXv3BH1t0E+ubZYxzALVkQ/kRzMq0shqimc87TgTs6NUBvLP3RfqPKdl8YLNe51KFUUvRCxQ==
+"@poool/eslint-config@2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@poool/eslint-config/-/eslint-config-2.0.1.tgz#8d44cbe548c7df7ee5b3dae881807baaaeaac572"
+  integrity sha512-8w7R6gN7AFgL5HS8POEnpOkarRL1ZQX8IBNeqPawmAjGfTC87oXS8sq8ze+TIQJPd7Vp7Z22JwnbTMv0LuHbVg==
 
 "@poool/eslint-plugin@2.0.0":
   version "2.0.0"
