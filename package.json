@@ -23,10 +23,10 @@
     "query-string": "^7.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.19.1",
+    "@babel/core": "7.19.3",
     "@babel/eslint-parser": "7.19.1",
     "@babel/eslint-plugin": "7.19.1",
-    "@babel/preset-env": "7.19.1",
+    "@babel/preset-env": "7.19.3",
     "@poool/eslint-config": "2.0.1",
     "@poool/eslint-config-node": "2.0.1",
     "@poool/eslint-plugin": "2.0.1",
