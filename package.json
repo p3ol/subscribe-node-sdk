@@ -29,7 +29,7 @@
     "@babel/preset-env": "7.19.4",
     "@poool/eslint-config": "2.0.1",
     "@poool/eslint-config-node": "2.0.1",
-    "@poool/eslint-plugin": "2.0.1",
+    "@poool/eslint-plugin": "2.0.2",
     "@rollup/plugin-babel": "6.0.2",
     "@rollup/plugin-commonjs": "23.0.2",
     "@rollup/plugin-node-resolve": "15.0.1",
