@@ -10,7 +10,7 @@
   "author": "dackmin <ugo@poool.fr>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c rollup.config.js",
+    "build": "rollup -c",
     "serve": "NODE_ENV=development node scripts/serve.js",
     "test": "BABEL_ENV=test jest",
     "lint": "eslint",
@@ -44,7 +44,7 @@
     "node-fetch": "2.6.7",
     "nodemon": "2.0.20",
     "query-string": "7.1.1",
-    "rollup": "2.79.1",
+    "rollup": "3.5.0",
     "standard-version": "9.5.0"
   }
 }
