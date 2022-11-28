@@ -1827,10 +1827,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@poool/eslint-config-node@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@poool/eslint-config-node/-/eslint-config-node-2.0.1.tgz#d3e58b9272932ef08d32226301021ae6ef3baf18"
-  integrity sha512-vvc1BmWaw3txhLjXg7/IM+Rl+l21UTknQ/kQqdKRi2dslw/BaO+CchHf64i/YeQ7vwJTYqZ5k3hW/Z1L0BbxxA==
+"@poool/eslint-config-node@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@poool/eslint-config-node/-/eslint-config-node-2.0.2.tgz#6e316459540710e9409a285c863e6533fdf3cc0f"
+  integrity sha512-NKOQUjhcS//WAd6X9Td1/9sOPiq+slIPuRdhd9pPybJef/1AJEY3YrMtbFiqHYsLLAFPo0hmSgi+L6zg1OmL+A==
 
 "@poool/eslint-config@2.0.2":
   version "2.0.2"
