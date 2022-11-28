@@ -9,6 +9,10 @@
   "repository": "https://github.com/p3ol/subscribe-node-sdk.git",
   "author": "dackmin <ugo@poool.fr>",
   "license": "MIT",
+  "engines": {
+    "node": "16 || 18",
+    "yarn": "1"
+  },
   "scripts": {
     "build": "rollup -c",
     "serve": "NODE_ENV=development node scripts/serve.js",
