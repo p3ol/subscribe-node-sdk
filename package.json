@@ -18,7 +18,7 @@
     "serve": "NODE_ENV=development node scripts/serve.js",
     "test": "BABEL_ENV=test jest",
     "lint": "eslint",
-    "prepublish": "yarn lint && yarn test && yarn build",
+    "prepack": "yarn lint && yarn test && yarn build",
     "release": "standard-version",
     "postrelease": "git push --follow-tags"
   },
