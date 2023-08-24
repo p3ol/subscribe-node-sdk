@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p3ol/subscribe-node-sdk/compare/v1.0.1...v2.0.0) (2023-08-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* allow to select offer price
+
+### Features
+
+* add price to switch offer ([edc5360](https://github.com/p3ol/subscribe-node-sdk/commit/edc5360a53e8753f9db79904f9fcda5e416a1b92))
+* allow to select offer price ([8d719c5](https://github.com/p3ol/subscribe-node-sdk/commit/8d719c5d5aed34872842f5a633e77785c85cd2e3))
+* **offers:** add sandbox param ([ecf88d1](https://github.com/p3ol/subscribe-node-sdk/commit/ecf88d1d2d457d3090f384a1fb38969cbb7fc1cb))
+
+
+### Bug Fixes
+
+* **ci:** use yarn cache for node libraries ([c4d64da](https://github.com/p3ol/subscribe-node-sdk/commit/c4d64da0638b97076e563a316eec49fdfc03e81b))
+* remove unused parameter ([123b79f](https://github.com/p3ol/subscribe-node-sdk/commit/123b79f622e1175e01e2807b46bca0e6d7d377df))
+* rename opts to reqOpts ([3b39173](https://github.com/p3ol/subscribe-node-sdk/commit/3b39173d7a7f908d12c463ede37bc24c177ac8e7))
+* rename price to priceId for consistency ([a5bb870](https://github.com/p3ol/subscribe-node-sdk/commit/a5bb8708ae0c94d6d813bab5f923d457aefdd032))
+
 ### [1.0.1](https://github.com/p3ol/subscribe-node-sdk/compare/v1.0.0...v1.0.1) (2022-08-04)
 
 ## [1.0.0](https://github.com/p3ol/subscribe-node-sdk/compare/v1.0.0-alpha.1...v1.0.0) (2022-08-04)
