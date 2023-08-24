@@ -37,7 +37,7 @@
     "@rollup/plugin-babel": "6.0.3",
     "@rollup/plugin-commonjs": "25.0.4",
     "@rollup/plugin-node-resolve": "15.2.1",
-    "babel-jest": "29.5.0",
+    "babel-jest": "29.6.4",
     "eslint": "8.47.0",
     "eslint-config-standard": "17.0.0",
     "eslint-plugin-import": "2.28.1",
