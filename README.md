@@ -27,6 +27,14 @@ subs.offers.list().then(({ offers, total }) => console.log(offers, total));
 
 https://poool.dev/docs/subscribe/server
 
+## Sandbox mode
+
+You can use the sandbox mode to test your integration without any real payment.
+Pass the `sandbox: true` request option (last parameter) to any method of the SDK to use it:
+
+```javascript
+subs.offers.list(1, 10, [], [], 'active', { sandbox: true })
+```
 
 ## Contributing
 
