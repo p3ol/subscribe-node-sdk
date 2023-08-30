@@ -30,7 +30,7 @@
     "@babel/core": "7.22.11",
     "@babel/eslint-parser": "7.22.11",
     "@babel/eslint-plugin": "7.22.10",
-    "@babel/preset-env": "7.22.10",
+    "@babel/preset-env": "7.22.14",
     "@poool/eslint-config": "3.0.1",
     "@poool/eslint-config-node": "3.0.1",
     "@poool/eslint-plugin": "3.0.0",
