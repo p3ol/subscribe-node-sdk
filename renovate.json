@@ -1,13 +1,10 @@
 {
   "extends": [
-    "config:base"
+    "p3ol/renovate-presets//presets/base#v1.0.0"
   ],
   "packageRules": [{
     "updateTypes": ["patch", "pin"],
     "depTypeList": ["devDependencies", "dependencies"],
     "automerge": true
-  }, {
-    "packagePatterns": ["^@poool/eslint"],
-    "groupName": "poool eslint monorepo"
   }]
 }
